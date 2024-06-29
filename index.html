@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embed Excel</title>
+    <title>Dashboard Facturas Campos</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #myExcelDiv {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-    <div id="myExcelDiv" style="width: 1900px; height: 1000px"></div>
+    <div id="myExcelDiv"></div>
     <!-- * This code uses the Microsoft Office Excel Javascript object model to programmatically insert the
          * Excel Web App into a div with id=myExcelDiv. The full API is documented at
          * https://msdn.microsoft.com/en-US/library/hh315812.aspx. There you can find out how to programmatically get
